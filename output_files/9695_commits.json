@@ -1,0 +1,125 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1669736547670,
+    "meta": {
+      "name": "Transactions Batch",
+      "description": "",
+      "txBuilderVersion": "1.11.1",
+      "createdFromSafeAddress": "0xC75aDbf2a5a6A51302c1c7cC789366ed16e1E0F3",
+      "createdFromOwnerAddress": "",
+      "checksum": ""
+    },
+    "transactions":[
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "identifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "time",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "ancillaryData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hash",
+                "type": "bytes32"
+              }
+            ],
+            "name": "commitVote",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "identifier": "0x41646d696e203138360000000000000000000000000000000000000000000000",
+            "time": "1675262879",
+            "ancillaryData": "0x",
+            "hash": "0x33662e1bd14c5cf86c7f46a28958a220daa4d95d301cc24bc3200a255315a01d"
+          }
+        },
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "identifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "time",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "ancillaryData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hash",
+                "type": "bytes32"
+              }
+            ],
+            "name": "commitVote",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "identifier": "0x41646d696e203138370000000000000000000000000000000000000000000000",
+            "time": "1675266035",
+            "ancillaryData": "0x",
+            "hash": "0x255853a9e1048e67261e732221583526c3fc649c51388ab8ed45b5b71689a02b"
+          }
+        },
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "identifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "time",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "ancillaryData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hash",
+                "type": "bytes32"
+              }
+            ],
+            "name": "commitVote",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "identifier": "0x41646d696e203138380000000000000000000000000000000000000000000000",
+            "time": "1675276235",
+            "ancillaryData": "0x",
+            "hash": "0x0db6c5af16c17f939cf99e846b3117972ed6e625ece4d84226ccb0e9554357f4"
+          }
+        }]
+  }

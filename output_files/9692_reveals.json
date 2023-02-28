@@ -1,0 +1,57 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1669736547670,
+    "meta": {
+      "name": "Transactions Batch",
+      "description": "",
+      "txBuilderVersion": "1.11.1",
+      "createdFromSafeAddress": "0xC75aDbf2a5a6A51302c1c7cC789366ed16e1E0F3",
+      "createdFromOwnerAddress": "",
+      "checksum": ""
+    },
+    "transactions":[
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "identifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "time",
+                "type": "uint256"
+              },
+              {
+                "internalType": "int256",
+                "name": "price",
+                "type": "int256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "ancillaryData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "int256",
+                "name": "salt",
+                "type": "int256"
+              }
+            ],
+            "name": "revealVote",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "identifier": "0x41646d696e203138350000000000000000000000000000000000000000000000",
+            "time": "1674765443",
+            "price": "1000000000000000000",
+            "ancillaryData": "0x",
+            "salt": "14023288442650054778710401858057714766025599352046042504182073248052935593005"
+          }
+        }]
+  }

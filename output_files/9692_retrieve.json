@@ -1,0 +1,62 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1669736547670,
+    "meta": {
+      "name": "Transactions Batch",
+      "description": "",
+      "txBuilderVersion": "1.11.1",
+      "createdFromSafeAddress": "0xC75aDbf2a5a6A51302c1c7cC789366ed16e1E0F3",
+      "createdFromOwnerAddress": "",
+      "checksum": ""
+    },
+    "transactions":[
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "address",
+                "name": "voterAddress",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "roundId",
+                "type": "uint256"
+              },
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32",
+                    "name": "identifier",
+                    "type": "bytes32"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "time",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "bytes",
+                    "name": "ancillaryData",
+                    "type": "bytes"
+                  }
+                ],
+                "internalType": "struct VotingAncillaryInterface.PendingRequestAncillary[]",
+                "name": "toRetrieve",
+                "type": "tuple[]"
+              }
+            ],
+            "name": "retrieveRewards",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "voterAddress": "0xC75aDbf2a5a6A51302c1c7cC789366ed16e1E0F3",
+            "roundId": "9692",
+            "toRetrieve": "[[\"0x41646d696e203138350000000000000000000000000000000000000000000000\",\"1674765443\",\"0x\"]]"
+          }
+        }]
+  }

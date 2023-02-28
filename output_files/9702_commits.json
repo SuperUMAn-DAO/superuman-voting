@@ -1,0 +1,51 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1669736547670,
+    "meta": {
+      "name": "Transactions Batch",
+      "description": "",
+      "txBuilderVersion": "1.11.1",
+      "createdFromSafeAddress": "0xC75aDbf2a5a6A51302c1c7cC789366ed16e1E0F3",
+      "createdFromOwnerAddress": "",
+      "checksum": ""
+    },
+    "transactions":[
+        {
+          "to": "0x8B1631ab830d11531aE83725fDa4D86012eCCd77",
+          "value": "0",
+          "data": null,
+          "contractMethod": {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "identifier",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "time",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "ancillaryData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hash",
+                "type": "bytes32"
+              }
+            ],
+            "name": "commitVote",
+            "payable": false
+          },
+          "contractInputsValues": {
+            "identifier": "0x41646d696e203138390000000000000000000000000000000000000000000000",
+            "time": "1676497739",
+            "ancillaryData": "0x",
+            "hash": "0x72645013498d8d02b10f12a8966edf9911cbd2649cb8efbd7ed3112d8f7b4f19"
+          }
+        }]
+  }
